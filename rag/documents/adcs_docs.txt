@@ -1,0 +1,19 @@
+ADCS (Attitude Determination and Control System) is responsible for determining and controlling satellite orientation.
+
+Magnetometers measure Earth's magnetic field and are used for attitude estimation.
+Common magnetometer faults include sensor drift, electromagnetic interference, and calibration errors.
+
+Sun sensors (photodiodes) measure sun vector angles.
+Common sun sensor issues include sun blinding, sensor saturation, and thermal noise.
+
+Corrective actions for magnetometer anomalies include:
+- Recalibration of sensor
+- Switching to redundant sensors
+- Filtering electromagnetic noise
+
+Corrective actions for sun sensor anomalies include:
+- Adjusting operational mode
+- Ignoring corrupted readings
+- Switching to alternate attitude estimation sources
+
+ADCS-level faults may require switching to safe mode or relying on gyroscopes temporarily.
