@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+torch
+torchvision
+fastapi
+uvicorn
+networkx
+faiss-cpu
+langchain
+python-dotenv
+pydantic
+matplotlib
+seaborn
